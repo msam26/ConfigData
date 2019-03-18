@@ -7,30 +7,42 @@ eureka:
 ---
 spring:
   profiles: sentence
+server:
+  port: 8020
 words: NotApplicable
       
 ---
 spring:
   profiles: subject
+server:
+  port: 8085
 words: I,You,He,She,It
 
 ---
 spring:
   profiles: verb
+server:
+  port: 8086
 words: ran,knew,had,saw,bought
 
 ---
 spring:
   profiles: article
+server:
+  port: 8087
 words: a,the
 
 ---
 spring:
   profiles: adjective
+server:
+  port: 8088
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
   profiles: noun
+server:
+  port: 8089
 words: boat,book,vote,seat,backpack,partition,groundhog
       
